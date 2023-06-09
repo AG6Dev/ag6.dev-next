@@ -1,24 +1,18 @@
 .navbar {
     display: flex;
     height: 90px;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
 
     background-color: #1e1e1e;
     color: #fff;
-
 }
 
-.navbar > .navbar-left-links > ul, .navbar > .navbar-right-links > ul {
-    display: inline-flex;
-    list-style-type: none;
+.navbar-brand {
+    margin-top: 70px;
 }
 
-.navbar > .navbar-middle > .navbar-brand {
-    margin-top: 50px;
-}
-
-.navbar > .navbar-middle > .navbar-brand > .navbar-icon {
+.navbar-icon {
     border-radius: 10%;
     border-color: #1a1a1a;
     border-style: solid;

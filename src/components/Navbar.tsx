@@ -4,15 +4,13 @@ import Link from "next/link";
 import icon from '../assets/icon.png'
 
 export default function Navbar() {
-    require('../styles/navbar.css')
+    require("../styles/navbar.css")
 
     return (
         <nav className="navbar">
             <div className="navbar-left-links">
-                <ul>
-                    <li><Link href="/">Home</Link></li>
-                    <li><Link href="/about">About</Link></li>
-                </ul>
+                <Link href="/">Home</Link>
+                <Link href="/about">About</Link>
             </div>
 
             <div className="navbar-middle">
@@ -24,11 +22,9 @@ export default function Navbar() {
             </div>
 
             <div className="navbar-right-links">
-                <ul>
-                    <li><Link href="/projects">Projects</Link></li>
-                    <li><Link href="/contact">Contact</Link></li>
-                </ul>
+                <Link href="/projects">Projects</Link>
+                <Link href="/contact">Contact</Link>
             </div>
         </nav>
-)
+    )
 }

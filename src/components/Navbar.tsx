@@ -16,7 +16,6 @@ export default function Navbar() {
             <div className="navbar-middle">
                 <div className="navbar-brand">
                     <Image src={icon} alt="Icon" className="navbar-icon"/>
-                    <h1>AG6Dev</h1>
                 </div>
                 <span className="navbar-middle-bar"></span>
             </div>

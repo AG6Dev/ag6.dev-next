@@ -1,5 +1,4 @@
-
-.navbar {
+#navbar-wrapper {
     display: flex;
     height: 90px;
     align-items: center;
@@ -8,8 +7,17 @@
     color: #fff;
 }
 
-.navbar-brand {
+#navbar-brand {
     text-align: center;
+}
+
+#navbar-icon {
+    border-radius: 10%;
+    border-color: #1a1a1a;
+    border-style: solid;
+
+    width: 64px;
+    height: 64px;
 }
 
 .navbar-link {
@@ -25,13 +33,4 @@
 .navbar-link:hover {
     color: #fff;
     text-decoration-color: #fff;
-}
-
-.navbar-icon {
-    border-radius: 10%;
-    border-color: #1a1a1a;
-    border-style: solid;
-
-    width: 64px;
-    height: 64px;
 }

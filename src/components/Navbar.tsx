@@ -9,8 +9,8 @@ export default function Navbar() {
     return (
         <nav className="navbar">
             <div className="navbar-left-links">
-                <Link href="/">Home</Link>
-                <Link href="/about">About</Link>
+                <Link href="/" className="navbar-link">Home</Link>
+                <Link href="/about" className="navbar-link">About</Link>
             </div>
 
             <div className="navbar-middle">
@@ -22,8 +22,8 @@ export default function Navbar() {
             </div>
 
             <div className="navbar-right-links">
-                <Link href="/projects">Projects</Link>
-                <Link href="/contact">Contact</Link>
+                <Link href="/projects" className="navbar-link">Projects</Link>
+                <Link href="/contact" className="navbar-link">Contact</Link>
             </div>
         </nav>
     )

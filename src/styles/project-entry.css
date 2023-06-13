@@ -1,0 +1,22 @@
+.project-entry {
+    border-radius: 10px;
+    border-color: #fff;
+    border-style: solid;
+    align-content: center;
+    display: flex;
+    /* temporary for now*/ background: aqua;
+}
+
+#project-text-area {
+    align-content: center;
+
+    flex-direction: column;
+}
+
+#project-image {
+    margin: 10px;
+
+    object-fit: cover;
+    max-width: 150px;
+    height: 100%
+}

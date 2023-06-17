@@ -5,8 +5,8 @@ export default function Home() {
     return (
         <div className="wrapper">
             <h1>Welcome to my site.</h1> {/*make sure to remove this line*/}
-            <AboutSection />
-            <ProjectSection />
+            <AboutSection/>
+            <ProjectSection/>
         </div>
     )
 }

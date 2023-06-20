@@ -14,7 +14,7 @@
     font-size: 30px;
 
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 #contact-wrapper > ul {
@@ -28,4 +28,6 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
+
+    gap: 20px;
 }

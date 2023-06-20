@@ -12,8 +12,8 @@ export default function ContactSection() {
 
             <ul id="contact-links">
                 <li><SocialButton name="GitHub" link="https://github.com/AG6Dev" image={githubIcon} color="#fff" /></li>
-                <li></li>
-                <li></li>
+                <li><SocialButton name="GitHub" link="https://github.com/AG6Dev" image={githubIcon} color="#fff" /></li>
+                <li><SocialButton name="GitHub" link="https://github.com/AG6Dev" image={githubIcon} color="#fff" /></li>
             </ul>
         </div>
     )
